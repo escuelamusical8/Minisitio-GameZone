@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #2d2d2d;
+}
+
+.seccion-datos {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #404040;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.seccion-banner {
+    background-image: url("https://picsum.photos/id/1/800/300.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.seccion-destacados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 15px;
+    background-color: #404040;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.caja-destacada {
+    padding: 5px;
+    text-align: center;
+}
+
+.caja-destacada:hover {
+    background-color: #ff6b6b;
+    font-style: italic;
+}
+
+h2 {
+    color: #ff6b6b;
+    margin: 25px;
+}
+
+p {
+    margin: 25px;
+}
+
+#imagen-datos {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: #ff0000;
+}
+
+footer {
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
